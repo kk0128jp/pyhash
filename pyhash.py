@@ -15,7 +15,6 @@ def generate_file_hash(algorithm, file_path):
     return hash_obj.hexdigest()
 
 def compare_hashes(expected_hash, actual_hash):
-    print(f'')
     return expected_hash == actual_hash
 
 def main():
